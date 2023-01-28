@@ -58,8 +58,6 @@ const App = () => {
     }
     const formSend = e => {
         e.preventDefault();
-        fetch('htt')
-
         let formdata = new FormData();
 
         formdata.append("kod", birinchi + ikkinchi + uchunchi + tortinchi);
