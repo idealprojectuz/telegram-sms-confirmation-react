@@ -1,0 +1,87 @@
+body {
+  background-color: #212121;
+}
+
+.telegram-icon-costum {
+  font-size: 100px;
+  color: white;
+}
+
+.tglogo {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 100px;
+  color: white;
+  font-size: 18px;
+  /* transform: translateY(150px); */
+  text-align: center;
+}
+
+button:focus {
+  background: #0258ff !important;
+  border-color: #0258ff !important;
+}
+
+button {
+  background-color: #8774e1 !important;
+  border-color: #8774e1 !important;
+  width: 100%;
+}
+
+form {
+  width: 37%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25%;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #8774e1;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+form input:focus {
+  border: 2px solid rgb(0, 51, 255);
+  transition: 0.3s ease-in-out;
+}
+
+form input::-webkit-outer-spin-button,
+form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 968px) {
+  form {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  form {
+    width: 100%;
+  }
+}
