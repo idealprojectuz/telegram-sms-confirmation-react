@@ -64,9 +64,6 @@ form input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
-  -moz-appearance: textfield;
-}
 
 @media screen and (max-width: 968px) {
   form {
